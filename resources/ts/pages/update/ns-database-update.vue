@@ -9,7 +9,7 @@
                     <h3 class="text-xl font-bold">{{ __( 'Database Update' ) }}</h3>
                 </div>
                 <div class="p-2 ns-box-body">
-                    <p class="text-center text-sm py-4">{{ __( 'In order to keep NexoPOS running smoothly with updates, we need to proceed to the database migration. In fact you don\'t need to do any action, just wait until the process is done and you\'ll be redirected.' ) }}</p>
+                    <p class="text-center text-sm py-4">{{ __( 'In order to keep RazanPOS running smoothly with updates, we need to proceed to the database migration. In fact you don\'t need to do any action, just wait until the process is done and you\'ll be redirected.' ) }}</p>
                     <div v-if="error" class="border-l-4 text-sm ns-notice error p-4">
                         <p>
                             {{ __( 'Looks like an error has occurred during the update. Usually, giving another shot should fix that. However, if you still don\'t get any chance.' ) }}
