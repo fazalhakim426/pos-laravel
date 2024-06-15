@@ -10,7 +10,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 
-class ComputeCategoryProductsJob implements ShouldQueue
+class ComputeCategoryProductsJob 
+// implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, NsSerialize, Queueable;
 

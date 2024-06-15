@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-between items-center flex-shrink-0">
-        <span class="hidden md:inline-block px-2">{{ __( 'Howdy, {name}' ).replace( '{name}', this.displayName ) }}</span>
+        <span class="hidden md:inline-block px-2">{{ __( 'Salam, {name}' ).replace( '{name}', this.displayName ) }}</span>
         <span class="md:hidden px-2">{{ displayName }}</span>
         <div class="px-2">
             <div class="overflow-hidden rounded-full bg-gray-600">

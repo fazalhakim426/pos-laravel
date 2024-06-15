@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * RazanPOS Controller
  *
  * @since  1.0
  **/
@@ -28,7 +28,7 @@ class RewardsSystemController extends DashboardController
         );
     }
 
-    public function edit( RewardSystem $reward )
+    public function edit(RewardSystem $reward)
     {
         return RewardSystemCrud::form(
             entry: $reward,

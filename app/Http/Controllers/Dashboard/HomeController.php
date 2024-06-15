@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * RazanPOS Controller
  *
  * @since  1.0
  **/
@@ -15,11 +15,11 @@ class HomeController extends DashboardController
 {
     public function welcome()
     {
-        return View::make( 'welcome', [
+        return View::make('welcome', [
             'title' => sprintf(
-                __( 'Welcome &mdash; %s' ),
-                ns()->option->get( 'ns_store_name', 'NexoPOS ' . config( 'nexopos.version' ) )
+                __('Welcome &mdash; %s'),
+                ns()->option->get('ns_store_name', 'RazanPOS ' . config('nexopos.version'))
             ),
-        ] );
+        ]);
     }
 }
